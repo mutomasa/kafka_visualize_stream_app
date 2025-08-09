@@ -1,0 +1,23 @@
+[project]
+name = "kafka_stream_app"
+version = "0.1.0"
+description = "Kafka + Streamlit real-time 3D streaming visualization"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "streamlit>=1.26",
+  "kafka-python>=2.0.2",
+  "plotly>=5.3",
+  "numpy>=1.23",
+  "pandas>=2.0",
+  "pyarrow>=14",
+]
+
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kafka_stream_app"]
+
+
