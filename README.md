@@ -1,6 +1,8 @@
 # Kafka 3D Streaming Visualization (Streamlit)
 
 ローカル Kafka（Docker Compose）で JSON ストリームを流し、Streamlit + Plotly で 3D 可視化します。
+<img width="1411" height="816" alt="image" src="https://github.com/user-attachments/assets/29c9a489-2d10-41d0-a806-7d89c742b1e3" />
+
 
 ## セットアップ
 
